@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <!-- style -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>wordware</title>
+</head>
+<body>
+  <header class="border-b border-gray-200">
+    <nav class="max-w-base flex items-center justify-between mx-auto px-4 md:px-6 py-1">
+      <!-- logo -->
+      <a href="#">
+        <img src="./img/logo_black.svg" alt="">
+      </a>
+      <div class="hidden lg:flex items-center gap-11">
+        <div class="flex items-center gap-8 text-gray-500">
+          <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Explore</a>
+          <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Pricing</a>
+          <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Careers</a>
+          <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">About us</a>
+        </div>
+        <div>
+          <button class="border border-slate-900 rounded-lg transition-colors duration-300 hover:text-white hover:bg-slate-900 py-2.5 px-1">
+            <span>Sign in</span>
+          </button>
+          <button class="bg-slate-900 border border-slate-900 rounded-lg transition-colors duration-300 text-white hover:bg-slate-700 py-2.5 px-1 ml-3">
+            <span>Get started</span>
+          </button>
+        </div>
+      </div>
+      <!-- mobile -->
+      <div class="block lg:hidden">
+        <button class="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>          
+        </button>
+        <div class="hidden w-full h-screen bg-slate-900/50 absolute top-0 left-0">
+          <!-- exit btn  -->
+          <button class="absolute right-5 top-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>            
+          </button>
+
+          <!--  -->
+          <div class="flex flex-col items-center gap-6 pt-28">
+            <div class="flex flex-col items-center gap-4 text-gray-500">
+              <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Explore</a>
+              <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Pricing</a>
+              <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">Careers</a>
+              <a class="underline decoration-transparent hover:decoration-current underline-offset-4 transition-colors duration-300" href="#">About us</a>
+            </div>
+              <button class="block border border-slate-900 rounded-lg transition-colors duration-300 hover:text-white hover:bg-slate-900 py-2.5 px-1">
+                <span>Sign in</span>
+              </button>
+              <button class="block bg-slate-900 border border-slate-900 rounded-lg transition-colors duration-300 text-white hover:bg-slate-700 py-2.5 px-1">
+                <span>Get started</span>
+              </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>  
+</body>
+</html>
