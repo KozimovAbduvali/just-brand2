@@ -9,6 +9,14 @@ module.exports = {
       spacing: {
         'base': '78.3rem',
         '1': '1.125rem'
+      },
+      colors: {
+        brand: {
+          gray: {
+            100: '#D9D9D9',
+            500: '#667085',
+          }
+        }
       }
     },
   },
