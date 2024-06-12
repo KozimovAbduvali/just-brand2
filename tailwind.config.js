@@ -12,13 +12,14 @@ module.exports = {
       },
       colors: {
         brand: {
+          dark: '#0F172A',
           gray: {
             100: '#D9D9D9',
             500: '#667085',
           },
           pink: {
             400: '#E7ECF8'
-          }
+          },
         }
       }
     },
