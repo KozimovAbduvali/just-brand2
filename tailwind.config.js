@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': [ "Inter", "sans-serif"]
+        'inter': [ "Inter"]
       },
       spacing: {
         'base': '78.3rem',
@@ -15,6 +15,9 @@ module.exports = {
           gray: {
             100: '#D9D9D9',
             500: '#667085',
+          },
+          pink: {
+            400: '#E7ECF8'
           }
         }
       }
